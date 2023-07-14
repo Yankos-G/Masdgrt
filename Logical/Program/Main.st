@@ -1,9 +1,6 @@
 
 PROGRAM _INIT
 	//BARTAS
-	//DRUGIBARTAS
-	//DRUGIBARTAS
-	//DRUGIBARTAS
 	//BARTAS
 	//Wysun; // testowa zmienna
 	
@@ -16,7 +13,7 @@ PROGRAM _CYCLIC
 //		BAIT := 2#0000_0000_0000_0101;
 //	ELSE
 //		BAIT := 2#0000_0000_0000_0000;
-//	END_IF;//DRUGIBARTAS
+//	END_IF;
 	
 	//Fragment kodu odpowiedzialny za inicjalizacjê taœmy
 	gAxis_1;
@@ -26,12 +23,11 @@ PROGRAM _CYCLIC
 	MotorBeltAxisBasic();
 	
 	//BARTAS
-	//DRUGIBARTAS
 	 
 END_PROGRAM
 
 PROGRAM _EXIT
 	
-	 //DRUGIBARTAS
+	 
 END_PROGRAM
 
