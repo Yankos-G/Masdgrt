@@ -1,17 +1,22 @@
 
 PROGRAM _INIT
-	
+	//BARTAS
+	//DRUGIBARTAS
+	//DRUGIBARTAS
+	//DRUGIBARTAS
+	//BARTAS
 	//Wysun; // testowa zmienna
-	//komentarz SZYMON
+	
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	//przesuwam program SZYMON
+	
+	//BARTAS
 //	IF Wysun THEN  //TESTOWANIE
 //		BAIT := 2#0000_0000_0000_0101;
 //	ELSE
 //		BAIT := 2#0000_0000_0000_0000;
-//	END_IF;
+//	END_IF;//DRUGIBARTAS
 	
 	//Fragment kodu odpowiedzialny za inicjalizacjê taœmy
 	gAxis_1;
@@ -19,13 +24,14 @@ PROGRAM _CYCLIC
 	MotorBeltAxisBasic.Enable := TRUE;
 	MotorBeltAxisBasic.Parameters := ADR(MotorBeltParType);	
 	MotorBeltAxisBasic();
-	//uwaga coœ tutaj pisze SZYMON
 	
+	//BARTAS
+	//DRUGIBARTAS
 	 
 END_PROGRAM
 
 PROGRAM _EXIT
 	
-	 
+	 //DRUGIBARTAS
 END_PROGRAM
 
