@@ -1,6 +1,8 @@
 
 PROGRAM _INIT
-
+	//BARTAS
+	//BARTAS
+	//Wysun; // testowa zmienna
 	
 END_PROGRAM
 
@@ -15,20 +17,17 @@ PROGRAM _CYCLIC
 	
 	//Fragment kodu odpowiedzialny za inicjalizacjê taœmy
 	gAxis_1;
-	//SZYMON
 	MotorBeltAxisBasic.MpLink := ADR(gAxis_1);
 	MotorBeltAxisBasic.Enable := TRUE;
 	MotorBeltAxisBasic.Parameters := ADR(MotorBeltParType);	
 	MotorBeltAxisBasic();
 	
-	//SZYMON
-	
-	
-	//SZYMON
+
+	 
 END_PROGRAM
 
 PROGRAM _EXIT
 	
-	 
+	 	//BARTAS
 END_PROGRAM
 
