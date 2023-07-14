@@ -6,7 +6,7 @@ PROGRAM _INIT
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	//przesuwam program SZYMON
+	//przesuwam program SZY
 //	IF Wysun THEN  //TESTOWANIE
 //		BAIT := 2#0000_0000_0000_0101;
 //	ELSE
