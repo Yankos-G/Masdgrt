@@ -7,12 +7,8 @@ PROGRAM _INIT
 END_PROGRAM
 
 PROGRAM _CYCLIC
-<<<<<<< HEAD
-	
+	//przesuwam program SZYMON
 	//BARTAS
-=======
-	//przesuwam program SZY
->>>>>>> MASEGR
 //	IF Wysun THEN  //TESTOWANIE
 //		BAIT := 2#0000_0000_0000_0101;
 //	ELSE
@@ -26,12 +22,71 @@ PROGRAM _CYCLIC
 	MotorBeltAxisBasic.Parameters := ADR(MotorBeltParType);	
 	MotorBeltAxisBasic();
 	
-
+<<<<<<< HEAD
+	//Zmieniam coœ
+=======
+	
+>>>>>>> origin/TEEESTBRANCH
 	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//dupa
 END_PROGRAM
 
 PROGRAM _EXIT
+	//BARTAS 2
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	//BARTAS 2
 	 	//BARTAS
 END_PROGRAM
 
