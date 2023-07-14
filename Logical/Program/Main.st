@@ -22,12 +22,22 @@ PROGRAM _CYCLIC
 	MotorBeltAxisBasic.Parameters := ADR(MotorBeltParType);	
 	MotorBeltAxisBasic();
 	
-
+	
 	 
 END_PROGRAM
 
 PROGRAM _EXIT
+	//BARTAS 2
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	//BARTAS 2
 	 	//BARTAS
 END_PROGRAM
 
