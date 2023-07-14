@@ -3,4 +3,5 @@ VAR
 	MotorBeltParType : MpAxisBasicParType;
 	BAIT : UINT;
 	Wysun : BOOL;
+	Moja_zmienna_szymon : BOOL;
 END_VAR

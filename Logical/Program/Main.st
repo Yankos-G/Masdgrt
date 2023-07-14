@@ -2,10 +2,11 @@
 PROGRAM _INIT
 	
 	//Wysun; // testowa zmienna
-	
+	//komentarz SZYMON
 END_PROGRAM
 
 PROGRAM _CYCLIC
+	//przesuwam program SZYMON
 //	IF Wysun THEN  //TESTOWANIE
 //		BAIT := 2#0000_0000_0000_0101;
 //	ELSE
@@ -18,7 +19,7 @@ PROGRAM _CYCLIC
 	MotorBeltAxisBasic.Enable := TRUE;
 	MotorBeltAxisBasic.Parameters := ADR(MotorBeltParType);	
 	MotorBeltAxisBasic();
-	
+	//uwaga coœ tutaj pisze SZYMON
 	
 	 
 END_PROGRAM
