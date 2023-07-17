@@ -29,7 +29,10 @@ PROGRAM _CYCLIC
 	END_IF;
 	
 	IF Wysun THEN
-	  ZmiennaGlobalnaBartasa := 10;
+		ZmiennaGlobalnaBartasa := 10;
+		IF ZmiennaGlobalnaBartasa = 10 THEN
+	  		BAIT := 2#0000_0000_0000_0000;
+		END_IF;
 	END_IF;
 	
 	
