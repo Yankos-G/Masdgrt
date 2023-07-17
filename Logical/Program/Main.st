@@ -24,9 +24,13 @@ PROGRAM _CYCLIC
 	
 	//Zmieniam coœ
 	 
+	IF BAIT THEN
+		ZmiennaGlobalnaBartasa2 := 1;
+	END_IF;
 	
-	
-	
+	IF Wysun THEN
+	  ZmiennaGlobalnaBartasa := 10;
+	END_IF;
 	
 	
 	
