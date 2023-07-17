@@ -14,14 +14,24 @@ PROGRAM _CYCLIC
 //	ELSE
 //		BAIT := 2#0000_0000_0000_0000;
 //	END_IF;
-	
+	IF Zmienna THEN
+		Zmienna := 0;
+	END_IF;
+	IF Zmienna THEN
+		Zmienna := 0;
+		IF Zmienna THEN
+			Zmienna := 0;
+		END_IF;
+	END_IF;
 	//Fragment kodu odpowiedzialny za inicjalizacjê taœmy
 	gAxis_1;
 	MotorBeltAxisBasic.MpLink := ADR(gAxis_1);
 	MotorBeltAxisBasic.Enable := TRUE;
 	MotorBeltAxisBasic.Parameters := ADR(MotorBeltParType);	
 	MotorBeltAxisBasic();
-	
+	IF Zmienna THEN
+		Zmienna := 0;
+	END_IF;
 	//Zmieniam coœ
 	 
 	IF BAIT THEN
