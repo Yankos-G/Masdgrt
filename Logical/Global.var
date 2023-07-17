@@ -1,4 +1,5 @@
 VAR
 	ZmiennaSzymona : USINT;
 	ZmiennaGlobalnaBartasa : INT;
+	ZmiennaGlobalnaBartasa2 : USINT;
 END_VAR
