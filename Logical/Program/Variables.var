@@ -1,4 +1,5 @@
 VAR
+	GRt : USINT;
 	MotorBeltAxisBasic : MpAxisBasic;
 	MotorBeltParType : MpAxisBasicParType;
 	BAIT : UINT;
